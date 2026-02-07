@@ -43,13 +43,16 @@ sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-## 4. Deployed website files
+### 4. Deployed website files
 
 ```bash
 cd /var/www/html
 sudo vi index.html
+Uploaded static website content into the Apache web root directory
 
-## 5. Verified website output
+### 5. Verified website output
 
 Accessed the website using the EC2 public IP in a browser
+http://<EC2-Public-IP>
+Website was displayed successfully.
 
