@@ -19,8 +19,10 @@ This project demonstrates hands-on experience with EC2, Linux commands, and web 
 ## ✅ Steps Performed
 
 ### 1. Launched an EC2 Instance
-- Created a Linux EC2 server from AWS Console  
-- Allowed HTTP (port 80) in Security Group  
+- Created an Amazon Linux EC2 server from AWS Console  
+- Configured security group to allow:
+   - SSH(Port 22)
+   - HTTP(Port 80) 
 
 ---
 
@@ -30,7 +32,12 @@ This project demonstrates hands-on experience with EC2, Linux commands, and web 
 sudo yum update -y
 sudo yum install httpd -y
 
-## 3. Started and Enabled Apache service
+---
+
+```md
+---
+
+### 3. Started and Enabled Apache Service
 
 ```bash
 sudo systemctl start httpd
