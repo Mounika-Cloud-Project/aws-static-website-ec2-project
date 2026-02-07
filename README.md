@@ -30,16 +30,16 @@ This project demonstrates hands-on experience with EC2, Linux commands, and web 
 sudo yum update -y
 sudo yum install httpd -y
 
-### 3. Started and Enabled Apache service
+## 3. Started and Enabled Apache service
 ```bash
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-### 4. Deployed website files
+## 4. Deployed website files
 ```bash
 cd /var/www/html
 sudo vi index.html
 
-### 5. Verified website output
+## 5. Verified website output
 Accessed the website using the EC2 public IP in a browser
 
