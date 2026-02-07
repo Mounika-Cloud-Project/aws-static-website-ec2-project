@@ -31,15 +31,18 @@ sudo yum update -y
 sudo yum install httpd -y
 
 ## 3. Started and Enabled Apache service
+
 ```bash
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
 ## 4. Deployed website files
+
 ```bash
 cd /var/www/html
 sudo vi index.html
 
 ## 5. Verified website output
+
 Accessed the website using the EC2 public IP in a browser
 
