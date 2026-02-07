@@ -28,26 +28,40 @@ This project demonstrates hands-on experience with EC2, Linux commands, and web 
 
 ### 2. Installed Apache Web Server
 
-```bash
+bash
+
 sudo yum update -y
+
 sudo yum install httpd -y
+
+---
 
 ### 3. Started and Enabled Apache Service
 
-```bash
 sudo systemctl start httpd
+
 sudo systemctl enable httpd
 
-### 4. Deployed website files
+---
 
-```bash
+### 4. Deployed Website Files
+
 cd /var/www/html
+
 sudo vi index.html
 
-Uploaded static website content into the Apache web root directory
+Uploaded static website content into the Apache web root directory.
 
-### 5. Verified website output
-http://<EC2-Public-IP>
-Accessed the website using the EC2 public IP in a browser
-Website was successfully displayed
+---
+
+### 5. Verified Website Output
+
+Accessed the deployed website using the EC2 Public IP address in a browser:
+
+http://EC2-Public-IP
+
+Website was successfully displayed.
+
+
+
 
